@@ -1,21 +1,25 @@
 {
-    "name": "toyCode",
-    "displayName": "toyCode",
-    "description": "Theme Dark for VS Code",
-    "version": "1.0.0",
-    "engines": {
-        "vscode": "^1.57.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "toyCode",
-                "uiTheme": "vs-dark",
-                "path": "./themes/MyTheme-color-theme.json"
-            }
-        ]
-    }
+  "name": "toycode",
+  "version": "1.0.0",
+  "description": "Theme Dark for VS Code",
+  "main": "themes/MyTheme-color-theme.json",
+  "scripts": {
+    "test": "clear"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larrykevin/toyCode.git"
+  },
+  "keywords": [
+    "theme",
+    "Visual",
+    "Studio",
+    "Code"
+  ],
+  "author": "Larry Caycho <larry.kevin.c.c@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larrykevin/toyCode/issues"
+  },
+  "homepage": "https://github.com/larrykevin/toyCode#readme"
 }
