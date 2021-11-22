@@ -1,8 +1,8 @@
 {
-    "name": "mytheme",
-    "displayName": "mytheme",
-    "description": "Mi propio tema para Vs Code",
-    "version": "0.0.1",
+    "name": "toyCode",
+    "displayName": "toyCode",
+    "description": "Theme Dark for VS Code",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.57.0"
     },
@@ -12,7 +12,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "MyTheme",
+                "label": "toyCode",
                 "uiTheme": "vs-dark",
                 "path": "./themes/MyTheme-color-theme.json"
             }
