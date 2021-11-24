@@ -643,6 +643,19 @@
 				"foreground": "#cfd1ec"
 			}
 		},
+		//SASS
+		{
+			"name": "SCSS Class",
+			"scope": [
+				"entity.name.tag.reference.scss",
+				"punctuation.definition.entity.css",
+				"keyword.control.at-rule.import.scss",
+				"keyword.control.at-rule.import.css"
+			],
+			"settings": {
+				"foreground": "#55dd92"
+			}
+		},
 		{
 			"name": "CSS Classes",
 			"scope": [
